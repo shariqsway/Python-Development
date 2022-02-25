@@ -1,6 +1,4 @@
-{% extends './main.html' %}
-
-
+{% extends 'main.html' %}
 
 {% block content %}
 
@@ -8,7 +6,7 @@
   <div class="container">
 
     <!-- Topics Start -->
-<!--    {% include './topics_component.html' %}-->
+    {% include 'base/topics_component.html' %}
 
     <!-- Topics End -->
 
@@ -49,13 +47,13 @@
         </a>
       </div>
 
-<!--      {% include 'base/feed_component.html' %}-->
+      {% include 'base/feed_component.html' %}
 
     </div>
     <!-- Room List End -->
 
     <!-- Activities Start -->
-<!--    {% include 'base/activity_component.html' %}-->
+    {% include 'base/activity_component.html' %}
 
     <!-- Activities End -->
   </div>
